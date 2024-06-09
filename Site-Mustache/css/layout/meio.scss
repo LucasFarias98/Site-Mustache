@@ -1,0 +1,21 @@
+
+.meio{height: 495px; @include largura-padrao; background-color: blanchedalmond; background: url('images/imgmeio.jpg')no-repeat; display: flex;  justify-content: flex-end; 
+    &-texto{height: 493px; width: 507px; margin-right: 225px;}
+    &-titulo{background-color: white; @include fonte-padrao;font-size: 20px; font-weight: normal; text-align: center; margin-top: 73px; margin-bottom: 30px; padding: 20px;}
+    &-texto1{background-color: black;  @include fonte-padrao; margin-bottom: 20px;  width: 437px;}
+    &-texto2{background-color: black; @include fonte-padrao; color: white; margin-bottom: 20px; width: 505px;}
+    &-texto3{background-color: black; @include fonte-padrao; width: 400px; margin-bottom: 50px;}
+    .texto{@include fonte-padrao; font-size:20px; text-align: center; color: white; padding: 15px;}
+    &-link{background-color: #0ba39c; color: white; padding: 20px; text-decoration: none; margin-top: 40px;}
+
+
+
+
+
+
+
+
+
+
+
+}

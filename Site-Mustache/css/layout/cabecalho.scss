@@ -1,0 +1,15 @@
+.cabecalho{height: 259px; @include largura-padrao;  display: flex; justify-content: center; align-items: center; flex-direction: column;
+    &-logo{height: 93px; width: 340px;}
+    &-lista{margin-top: 50px;}
+    &-item{display: inline-block; text-transform: uppercase; margin-left: 40px; font-size: 14px; font-weight: normal; @include fonte-padrao;}
+    &-link{text-decoration: none; text-decoration: none; color: black;}
+    &-link:hover{color: #0ba39c;}
+    .home{color: #0ba39c;}
+    
+
+
+
+
+
+
+} 

@@ -1,0 +1,317 @@
+.efeitoSumir {
+  opacity: 0; }
+
+.efeitoLink {
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  width: 50px;
+  border: 2px solid black; }
+
+.efeitoContato {
+  background-color: white;
+  color: black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  padding: 20px 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  height: 20px;
+  border: 2px solid black; }
+
+.cabecalho {
+  height: 259px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .cabecalho-logo {
+    height: 93px;
+    width: 340px; }
+  .cabecalho-lista {
+    margin-top: 50px; }
+  .cabecalho-item {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Arial Black", Gadget, sans-serif; }
+  .cabecalho-link {
+    text-decoration: none;
+    text-decoration: none;
+    color: black; }
+  .cabecalho-link:hover {
+    color: #0ba39c; }
+  .cabecalho .home {
+    color: #0ba39c; }
+
+.meio {
+  height: 495px;
+  width: 100vw;
+  background-color: blanchedalmond;
+  background: url("images/imgmeio.jpg") no-repeat;
+  display: flex;
+  justify-content: flex-end; }
+  .meio-texto {
+    height: 493px;
+    width: 507px;
+    margin-right: 225px; }
+  .meio-titulo {
+    background-color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 73px;
+    margin-bottom: 30px;
+    padding: 20px; }
+  .meio-texto1 {
+    background-color: black;
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin-bottom: 20px;
+    width: 437px; }
+  .meio-texto2 {
+    background-color: black;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    width: 505px; }
+  .meio-texto3 {
+    background-color: black;
+    font-family: "Arial Black", Gadget, sans-serif;
+    width: 400px;
+    margin-bottom: 50px; }
+  .meio .texto {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 15px; }
+  .meio-link {
+    background-color: #0ba39c;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: 40px; }
+
+.meio-about {
+  height: 1045px;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .meio-about-titulo {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding: 15px 28px 12px;
+    width: 466px;
+    font-size: 35px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin-bottom: 25px; }
+  .meio-about .homem {
+    border: 2px solid black;
+    margin-bottom: 30px; }
+  .meio-about-tt {
+    color: #252525;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center;
+    margin-bottom: 13px; }
+  .meio-about-pp {
+    line-height: 23px;
+    color: #252525;
+    margin-bottom: 20px; }
+  .meio-about-divtt1 {
+    width: 567px;
+    text-align: center; }
+  .meio-about .link {
+    color: #252525; }
+  .meio-about .link:hover {
+    color: #cccccc; }
+  .meio-about-tt1, .meio-about-tt2, .meio-about-tt3 {
+    color: #252525;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center;
+    margin-bottom: 13px; }
+  .meio-about-pp1, .meio-about-pp2, .meio-about-pp3 {
+    line-height: 23px;
+    color: #252525;
+    margin-bottom: 20px; }
+  .meio-about-divtt2, .meio-about-divtt3, .meio-about-divtt4 {
+    width: 567px;
+    text-align: center; }
+
+.meio-gallery {
+  height: 1170px;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap; }
+  .meio-gallery-tt {
+    color: white;
+    background-color: #252525;
+    font-size: 35px;
+    height: 38px;
+    width: 180px;
+    padding: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center; }
+  .meio-gallery .imagens {
+    width: 296px;
+    height: 295px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 17px;
+    opacity: 0.8;
+    transition: 0.5s ease-in-out; }
+  .meio-gallery .imagens:hover {
+    opacity: 1; }
+  .meio-gallery .album {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto; }
+  .meio-gallery .segura-titulo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.meio-blog {
+  height: 1103px;
+  width: 100vw; }
+  .meio-blog-tt {
+    background-color: black;
+    color: white;
+    width: 135px;
+    padding: 15px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px; }
+  .meio-blog-seguratt {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+  .meio-blog .imagens {
+    width: 376px;
+    height: 295px;
+    border: 1px solid black; }
+  .meio-blog .segura-imagem1,
+  .meio-blog .segura-imagem2,
+  .meio-blog .segura-imagem3 {
+    display: flex;
+    width: 896px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px; }
+  .meio-blog .segura-texto1,
+  .meio-blog .segura-texto2,
+  .meio-blog .segura-texto3 {
+    width: 500px;
+    float: right;
+    text-align: center;
+    border: 1px solid black; }
+  .meio-blog .titulo-texto1,
+  .meio-blog .titulo-texto2,
+  .meio-blog .titulo-texto3 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 25px;
+    margin-top: 75px;
+    margin-bottom: 20px; }
+  .meio-blog .paragrafo-texto1,
+  .meio-blog .paragrafo-texto2,
+  .meio-blog .paragrafo-texto3 {
+    line-height: 30px;
+    margin-bottom: 30px; }
+  .meio-blog .link {
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 50px; }
+
+.meio-contato {
+  height: 824px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .meio-contato-tt {
+    background-color: #252525;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding: 10px;
+    width: 460px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px; }
+  .meio-contato .caixa-texto {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    text-align: center;
+    text-transform: uppercase; }
+  .meio-contato .caixa-area {
+    width: 576px;
+    height: 243px;
+    text-align: center;
+    border: 2px solid black;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-bottom: 40px; }
+  .meio-contato-tt2 {
+    background-color: #252525;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding: 20px 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    height: 20px; }
+
+.galeria {
+  height: 378px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .galeria .imagens {
+    border: 2px solid black;
+    width: 296px;
+    height: 238px;
+    opacity: .8;
+    margin-right: 20px;
+    transition: 0.5s ease-in-out; }
+  .galeria .imagens:hover {
+    opacity: 1; }
+  .galeria-fotos {
+    display: flex; }
+  .galeria-titulos {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px; }
+
+.rodape {
+  height: 119px;
+  width: 100vw;
+  background-color: #252525;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden; }
+  .rodape-lista-item {
+    display: inline-block;
+    margin-left: 20px; }
+  .rodape .icon {
+    margin-left: 20px; }
+
+/*# sourceMappingURL=externo.css.map */

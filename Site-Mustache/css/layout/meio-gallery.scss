@@ -1,0 +1,17 @@
+.meio-gallery{height: 1170px; width:100vw; display: flex; 
+ flex-wrap: wrap; 
+    &-tt{color: white; background-color:#252525; font-size: 35px; height: 38px; width: 180px; padding: 10px; @include fonte-padrao; text-align: center; }
+    .imagens{width:296px; height:295px; border:1px solid black; margin-left: 20px; margin-bottom: 20px; margin-top: 17px;opacity: 0.8; transition: 0.5s ease-in-out;}
+    .imagens:hover{opacity: 1;}
+    .album{width: 1000px; display: flex;  flex-wrap: wrap; margin-left: auto; margin-right: auto; }
+    .segura-titulo{width: 100%; display: flex; align-items: center; justify-content: center;}
+
+
+
+
+
+ 
+
+
+
+}

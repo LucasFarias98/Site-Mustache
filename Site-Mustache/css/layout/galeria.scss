@@ -1,0 +1,18 @@
+.galeria{height: 378px; @include largura-padrao; display: flex; justify-content: space-around; align-items: center;
+    .imagens{border: 2px solid black; width: 296px; height: 238px; opacity: .8; margin-right: 20px; transition: 0.5s ease-in-out;}
+    .imagens:hover{opacity: 1;}
+    &-fotos{display: flex;}
+    &-titulos{text-align: center; margin-top: 20px; @include fonte-padrao; font-size: 20px;}
+    
+
+
+
+
+
+
+
+
+
+
+
+}

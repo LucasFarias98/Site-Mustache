@@ -1,0 +1,30 @@
+.meio-about{height: 1045px; width: 100vw; background-color: white; display: flex;
+ flex-direction: column; align-items: center;
+    &-titulo{background-color: #252525; color: white; text-align: center; padding: 15px 28px 12px; width: 466px; font-size: 35px; @include fonte-padrao; margin-bottom: 25px;}
+    .homem{border: 2px solid black; margin-bottom: 30px;}
+    &-tt{color: #252525; @include fonte-padrao; text-align: center; margin-bottom: 13px; }
+    &-pp{line-height: 23px; color: #252525; margin-bottom: 20px;}
+    &-divtt1{width: 567px; text-align: center;} 
+    .link{color: #252525;}
+    .link:hover{color: #cccccc;}
+
+    &-tt1,
+    &-tt2,
+    &-tt3{color: #252525; @include fonte-padrao; text-align: center; margin-bottom: 13px;}
+    
+    &-pp1,
+    &-pp2,
+    &-pp3{line-height: 23px; color: #252525; margin-bottom: 20px;}
+    
+    &-divtt2,
+    &-divtt3,
+    &-divtt4{width: 567px; text-align: center;}
+  
+   
+ 
+  
+    
+    
+    
+    
+}
